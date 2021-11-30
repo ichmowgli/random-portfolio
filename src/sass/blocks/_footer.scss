@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .footer-icons {
+        padding-top: 51px;
+        img {
+            height: 30px;
+            width: 30px;
+            margin-right: 17px;
+            margin-left: 17px;
+        }
+    }
+    p {
+        padding-top: 26px;
+        padding-bottom: 54px;
+        font-size: 14px;
+        line-height: 21px;
+        color: $main-color;
+    }
+}

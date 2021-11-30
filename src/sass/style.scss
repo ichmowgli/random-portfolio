@@ -1,0 +1,22 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/posts';
+@import 'blocks/works';
+@import 'blocks/footer';
+
+
+@import 'blocks/media';

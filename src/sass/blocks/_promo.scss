@@ -1,0 +1,98 @@
+.promo {
+    .header_lg {
+        margin-top: 27px;
+        margin-right: 60px;
+        display: flex;
+        justify-content: flex-end;
+        a {
+            padding-left: 33px;
+            font-family: Heebo;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px;
+            text-align: right;
+            color: #000;
+        }
+    }
+    .header_sm {
+        display: none;
+        .burger {
+            all: unset;
+            div {
+                background-color: black;
+                margin-bottom: 8px;
+                width: 30px;
+                height: 2px;
+            }
+            &_cross {
+                * {
+                    transition: 0.4s;
+                }
+                :nth-child(1) {
+                    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                    transform: rotate(-45deg) translate(-7px, 6px);
+                }
+                  
+                :nth-child(2) {opacity: 0;}
+                  
+                :nth-child(3) {
+                    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                    transform: rotate(45deg) translate(-8px, -8px);
+                  }
+            }
+        }
+        .menu_items {
+            a {
+                padding-left: 33px;
+                font-family: Heebo;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                text-align: right;
+                color: #000;
+            }
+        }
+    }
+    .promo__wrapper {
+        padding-top: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        div {
+            h1 {
+                font-weight: bold;
+                font-size: 44px;
+                line-height: 60px;
+                color: $main-color;
+            }
+            h2 {
+                margin-top: 40px;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                color: $main-color;
+                max-width: 497px;
+            }
+            button {
+                margin-bottom: 71px;
+                margin-top: 38px;
+                width: 208px;
+                height: 47px;
+                background: #FF6464;
+                border: none;
+                border-radius: 2px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+        }
+        img {
+            width: 243px;
+            height: 243px;
+        }
+    }
+}
+
+
+
